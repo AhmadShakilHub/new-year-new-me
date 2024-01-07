@@ -5,12 +5,12 @@ body {
 * {
   margin: 0;
 }
-/* common shared styles */
 .section-container {
   width: 100%;
   max-width: 1900px;
   margin: auto;
 }
+
 /* Section-1 styles */
 .banner {
   align-items: center;
@@ -46,7 +46,6 @@ body {
 }
 .contact-btn {
   color: #fff;
-  /* text-align: right; */
   font-size: 20px;
   font-weight: 600;
   width: 160px;
@@ -56,13 +55,13 @@ body {
   background: #f15b22;
   cursor: pointer;
 }
-button:hover{
+button:hover {
   transition: all 1s, #7ac509 1s;
 }
 
 /* failure section styles */
-.failure-section{
-  background: #FFF;
+.failure-section {
+  background: #fff;
 }
 .failure-container {
   display: flex;
@@ -75,35 +74,56 @@ button:hover{
   padding: 140px 0;
 }
 .failure-image {
- 
   height: 527.929px;
   border-radius: 527.929px;
   background: rgba(241, 91, 34, 0.2);
   margin-bottom: 300px;
-
 }
-.failure-title{
-  color:  #151414;
+.failure-title {
+  color: #151414;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 24px;
+}
+.failure-description {
+  color: #444343;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  padding-bottom: 16px;
+}
+.failure-list {
+  list-style-type: circle;
+  color: #444343;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  padding-bottom: 8px;
+}
+
+/* My plan section styles */
+.plan-container{
+  width: 70%;
+  max-width: 1900px;
+  margin: auto;
+  display: flex;
+  gap: 160px;
+  justify-content: center;
+  padding: 130px;
+}
+.section-title{
+text-align: center;
+color: #151414;
 font-size: 40px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-padding-bottom: 24px;
+padding-bottom: 50px;
 }
-.failure-description{
-  color: #444343;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
-padding-bottom: 16px;
-}
-.failure-list{
-  list-style-type: circle;
-  color: #444343;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
-padding-bottom: 8px;
+.plan-item{
+  text-align: center;
 }
