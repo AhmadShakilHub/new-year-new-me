@@ -1,0 +1,109 @@
+/* Common shared style  */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+* {
+  margin: 0;
+}
+/* common shared styles */
+.section-container {
+  width: 100%;
+  max-width: 1900px;
+  margin: auto;
+}
+/* Section-1 styles */
+.banner {
+  align-items: center;
+  background-image: url("../images/banner/banner1.png");
+  background-position: bottom left;
+  background-size: cover;
+}
+.banner .banner-container {
+  width: 100%;
+  max-width: 525px;
+  text-align: right;
+  padding: 215px 0;
+  margin-right: auto;
+  margin-left: 65%;
+}
+.banner-text .banner-title {
+  color: #151414;
+  text-align: right;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 24px;
+}
+.banner-text .banner-description {
+  color: #444343;
+  text-align: right;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  padding-bottom: 30px;
+}
+.contact-btn {
+  color: #fff;
+  /* text-align: right; */
+  font-size: 20px;
+  font-weight: 600;
+  width: 160px;
+  height: 64px;
+  border: 0;
+  border-radius: 5px;
+  background: #f15b22;
+  cursor: pointer;
+}
+button:hover{
+  transition: all 1s, #7ac509 1s;
+}
+
+/* failure section styles */
+.failure-section{
+  background: #FFF;
+}
+.failure-container {
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 68%;
+  max-width: 1900;
+  padding: 140px 0;
+}
+.failure-image {
+ 
+  height: 527.929px;
+  border-radius: 527.929px;
+  background: rgba(241, 91, 34, 0.2);
+  margin-bottom: 300px;
+
+}
+.failure-title{
+  color:  #151414;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 24px;
+}
+.failure-description{
+  color: #444343;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+padding-bottom: 16px;
+}
+.failure-list{
+  list-style-type: circle;
+  color: #444343;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+padding-bottom: 8px;
+}
