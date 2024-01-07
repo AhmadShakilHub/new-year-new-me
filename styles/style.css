@@ -191,3 +191,62 @@ button:hover {
   background: #fff;
   cursor: pointer;
 }
+
+/* Footer styles */
+.footer-container{
+  width: 100%;
+  max-width: 1900;
+  background: #151414;
+  padding: 230px 130px;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.footer-text-title{
+  color: #F8F8F8;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+footer p{
+  color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+padding-bottom: 24px;
+}
+.footer-text{
+  width: 45%;
+  max-width: 1440px;
+  display: block;
+  text-align: left;
+}
+.social-media{
+  
+}
+.sub-heading{
+  color: #FFF;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.subsribe{
+  color: #F15B22;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border: 0;
+border-radius: 8px;
+background: #FFF;
+}
+.footer-subscription{
+  width: 45%;
+  max-width: 1440px;
+  display: block;
+  text-align: left;
+}
