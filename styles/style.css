@@ -4,19 +4,23 @@ body {
 }
 * {
   margin: 0;
+  width: 100%;
 }
 .section-container {
-  width: 100%;
+  width: 75%;
   max-width: 1900px;
   margin: auto;
 }
 
 /* Section-1 styles */
 .banner {
+  width: 100%;
+  max-width: 1900px;
   align-items: center;
   background-image: url("../images/banner/banner1.png");
   background-position: bottom left;
   background-size: cover;
+  margin: auto;
 }
 .banner .banner-container {
   width: 100%;
@@ -69,15 +73,28 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  width: 68%;
+  width: 70%;
   max-width: 1900;
   padding: 140px 0;
 }
 .failure-image {
-  height: 527.929px;
-  border-radius: 527.929px;
-  background: rgba(241, 91, 34, 0.2);
+  justify-content: flex-end;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+}
+.pic-bg {
+  height: 600.929px;
+  padding-bottom: 50px;
+  padding-top: 0;
+  border-radius: 627.929px;
+  background-color: rgba(241, 91, 34, 0.2);
   margin-bottom: 300px;
+  margin-top: 150px;
+}
+.pic{
+  padding-bottom: 1200px;
+  margin-bottom: 200px;
 }
 .failure-title {
   color: #151414;
@@ -106,24 +123,71 @@ button:hover {
 }
 
 /* My plan section styles */
-.plan-container{
+.plan-container {
   width: 70%;
   max-width: 1900px;
   margin: auto;
   display: flex;
-  gap: 160px;
+  gap: 170px;
   justify-content: center;
   padding: 130px;
 }
-.section-title{
-text-align: center;
-color: #151414;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding-bottom: 50px;
-}
-.plan-item{
+.section-title {
   text-align: center;
+  color: #151414;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 50px;
+}
+.plan-item {
+  text-align: center;
+}
+/* Newsletter section styles */
+
+.newsletter-container {
+  width: 45%;
+  max-width: 1900px;
+  padding: 60px 615px 60px 60px;
+  justify-content: center;
+  margin: auto;
+  background-image: url("../images/gradient2.png"), url("../images/watch.png");
+  background-size: cover;
+  background-position: top left;
+  border-radius: 10px;
+}
+
+.newsletter-heading {
+  width: 60%;
+  max-width: 500px;
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.newsletter {
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.newsletter-heading {
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 24px;
+}
+.call-now {
+  color: #f15b22;
+  font-size: 20px;
+  font-weight: 600;
+  width: 160px;
+  height: 64px;
+  border: 0;
+  border-radius: 5px;
+  background: #fff;
+  cursor: pointer;
 }
